@@ -2,11 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Signup Form</title>
   </head>
+
   <body>
-    <h1>Hello!</h1>
+    <section class="sidelogo">
+      <nav class="sidebar">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+        />
+        <p class="norse">Odin</p>
+      </nav>
+    </section>
+
+    <section class="rightside">
+      <nav class="toptext">
+        <header class="header">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+          <p class="one-paragraph">You <em>know</em> you want to.</p>
+        </header>
+      </nav>
+
+      <div class="whitebox">
+        <p class="whitebox-p">Let's do this!</p>
+
+        <form class="form-top">
+          <div class="formrow">
+            <nav class="form-element">
+              <label
+                >FIRST NAME <input required id="first-name" type="text"
+              /></label>
+            </nav>
+
+            <nav class="form-element">
+              <label
+                >LAST NAME <input required id="last-name" type="text"
+              /></label>
+            </nav>
+          </div>
+
+          <div class="formrow">
+            <nav class="form-element">
+              <label>EMAIL <input required id="text" type="email" /></label>
+            </nav>
+
+            <nav class="form-element">
+              <label
+                >PHONE NUMBER
+                <input
+                  required
+                  name="phone-number"
+                  id="phone-number"
+                  type="tel"
+              /></label>
+            </nav>
+          </div>
+
+          <div class="formrow">
+            <nav class="form-element">
+              <label
+                >PASSWORD
+                <input required class="password" id="Password" type="password"
+              /></label>
+
+              <p id="validation-error" class="error">*Passwords do not match</p>
+            </nav>
+
+            <nav class="form-element">
+              <label
+                >CONFIRM PASSWORD
+                <input
+                  required
+                  class="password"
+                  id="confirm-Password"
+                  type="confirm-password"
+              /></label>
+            </nav>
+          </div>
+        </form>
+      </div>
+
+      <button type="submit" class="btn">Create Account</button>
+      <p class="account" class="last-paragraph">
+        Already have an account?
+        <a href="#" class="log-in">Log in</a>
+      </p>
+    </section>
   </body>
 </html>
