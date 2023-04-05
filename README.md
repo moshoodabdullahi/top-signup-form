@@ -1,16 +1,28 @@
-# Project Name
+# TOP SIGNUP FORM
 
-> One paragraph statement about the project.
+> A signup form built using CSS font face, CSS flexbox, typography, semantic html and block level element.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+# This PR adds a signup form webpage using CSS font face, CSS flexbox, typography, semantic html and block level element.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Semantic elements such as `header`, `nav` and so on,
+  - Block level element such as `section`, `p` and so on.
+- CSS properties
+  - CSS Positioning `relative`,
+  - Typography such as `font-family`,
+  - CSS flexbox such as `flex-direction`,
+  - CSS Variables for reusable CSS values,
+  - CSS font-face used to specify font to display text such as `@font-face`,
+  - CSS Background for page aesthetic using `background-color`,
+    `background-color`, `background-size` and so on.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
@@ -21,7 +33,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/top-signup-form.git
 ```
 
 - Install Dependencies
@@ -64,7 +76,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -84,9 +95,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [TheOdinProject](https://www.theodinproject.com/paths/foundations/courses/foundations)
 
 ## 📝 License
 
