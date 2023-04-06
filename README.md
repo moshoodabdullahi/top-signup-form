@@ -1,16 +1,15 @@
 # TOP SIGNUP FORM
 
-> A signup form built using CSS font face, CSS flexbox, typography, semantic html and block level element.
+> A signup form built using CSS font face, CSS flexbox, typography and semantic html.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./add-top-signup-form.netlify.app_.png)
 
-# This PR adds a signup form webpage using CSS font face, CSS flexbox, typography, semantic html and block level element.
+# This PR adds a signup form webpage using CSS font face, CSS flexbox, typography and semantic html.
 
 ## Built With
 
 - HTML5 elements
   - Semantic elements such as `header`, `nav` and so on,
-  - Block level element such as `section`, `p` and so on.
 - CSS properties
   - CSS Positioning `relative`,
   - Typography such as `font-family`,
@@ -26,7 +25,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://add-top-signup-form.netlify.app/)
 
 ### Development (Running locally)
 
