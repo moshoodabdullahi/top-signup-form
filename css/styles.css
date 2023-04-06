@@ -65,7 +65,7 @@ html {
 
 .whitebox {
   background-color: white;
-  box-shadow: rgb(0 0 0 / 15%);
+  box-shadow: rgb(0 0 0 / 15%) 0 3px 3px 0;
   padding: 10px 35px 20px;
   margin-top: 40px;
 }
