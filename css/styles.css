@@ -1,159 +1,157 @@
 @font-face {
-    font-family: "Norse-Bold";
-    src: url("Norse-Bold.otf") format("opentype");
-    font-weight: bold;
+  font-family: Norse-Bold;
+  src: url("Norse-Bold.otf") format("opentype");
+  font-weight: bold;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
-    width: 100%;
-    display: flex;
-    font-size: 17px;
-    font-weight: 600;
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .header {
-    padding: 10px;
+  padding: 10px;
 }
 
 .sidelogo {
-    position: relative;
-    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    width: 40%;
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 40%;
 }
 
 .rightside {
-    position: relative;
-    width: 60%;
-    background-color: #f7f8fa;
-    font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 60%;
+  background-color: #f7f8fa;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar {
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    background-color: #0000005d;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  background-color: #0000005d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar img {
-    height: 110px;
-    background-color: transparent;
+  height: 110px;
+  background-color: transparent;
 }
 
 .norse {
-    font-family: "Norse-Bold";
-    color: white;
-    font-size: 90px;
-} 
-
+  font-family: Norse-Bold, sans-serif;
+  color: white;
+  font-size: 90px;
+}
 
 .whitebox-p {
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 .whitebox {
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.15);
-    padding: 10px 35px 20px;
-    margin-top: 40px;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 15%);
+  padding: 10px 35px 20px;
+  margin-top: 40px;
 }
 
 .toptext {
-    margin-top: 100px;
-    width: 542px;
-    margin-left: 30px;
+  margin-top: 100px;
+  width: 542px;
+  margin-left: 30px;
 }
 
 .toptext p {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
-
 .form-top {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .formrow {
-    display: flex;
+  display: flex;
 }
 
 .form-element {
-    margin-right: 50px;
-    margin-top: 12px;
+  margin-right: 50px;
+  margin-top: 12px;
 }
 
 label {
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-size: 9px;
-    font-weight: 700;
-    margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 9px;
+  font-weight: 700;
+  margin-top: 5px;
 }
 
 input {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #E5E7Eb;
-    padding: 4px 6px;
-    border-radius: 4px;
-    font-size: 13x;
-    width: 185px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #e5e7eb;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 185px;
 }
 
 .password {
-    border-color: rgb(195 56 56);
+  border-color: rgb(195 56 56);
 }
 
-label, input {
-    display: block;
+label,
+input {
+  display: block;
 }
 
 .error {
-    color:  #c13838;
-    font-size: 9px;
-    margin-top: 3px;
+  color: #c13838;
+  font-size: 9px;
+  margin-top: 3px;
 }
 
 .btn {
-    background-color: #596D48;
-    color: white;
-    border-radius: 6px;
-    outline: none;
-    margin-top: 25px;
-    border: none;
-    padding: 10px 40px 12px 40px;
-    font-size: .7rem;
-    margin-left: 30px;
+  background-color: #596d48;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 25px;
+  border: none;
+  padding: 10px 40px 12px;
+  font-size: 0.7rem;
+  margin-left: 30px;
 }
 
 .call-btn:hover {
-    color: #3882f6;
-    background-color: #fff;
-    transform: translateY(-2px);
-    box-shadow: -1px 8px 16px 0 #2b64bd;
-  }
-
+  color: #3882f6;
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: -1px 8px 16px 0 #2b64bd;
+}
 
 .account {
-    font-size: 12px;
-    margin-top: 30px;
-    margin-left: 30px;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 
 .log-in {
-    color: #596D48;
-    text-decoration: none;
+  color: #596d48;
+  text-decoration: none;
 }
