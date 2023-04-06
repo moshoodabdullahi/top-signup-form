@@ -111,17 +111,17 @@ input {
   width: 185px;
 }
 
-.password {
-  border-color: rgb(195 56 56);
-}
-
 label,
 input {
   display: block;
 }
 
+input:focus {
+  border-color: lightblue;
+}
+
 .error {
-  color: #c13838;
+  color: #e5e7eb;
   font-size: 9px;
   margin-top: 3px;
 }
@@ -138,11 +138,11 @@ input {
   margin-left: 30px;
 }
 
-.call-btn:hover {
-  color: #3882f6;
+.btn:hover {
+  color: #596d48;
   background-color: #fff;
   transform: translateY(-2px);
-  box-shadow: -1px 8px 16px 0 #2b64bd;
+  box-shadow: -1px 8px 16px 0 #586579;
 }
 
 .account {
