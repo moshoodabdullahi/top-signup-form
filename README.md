@@ -4,8 +4,6 @@
 
 ![screenshot](./add-top-signup-form.netlify.app_.png)
 
-# This PR adds a signup form webpage using CSS font face, CSS flexbox, typography and semantic html.
-
 ## Built With
 
 - HTML5 elements
