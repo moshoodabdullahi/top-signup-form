@@ -23,15 +23,22 @@ html {
 
 .sidelogo {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") center no-repeat;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh;
   width: 40%;
 }
 
-.rightside {
+.validation {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 630px;
+  font-weight: 100;
+  font-size: small;
+}
+
+.formside {
   position: relative;
   width: 60%;
   background-color: #f7f8fa;
@@ -72,17 +79,12 @@ html {
 
 .toptext {
   margin-top: 100px;
-  width: 542px;
+  width: 70%;
   margin-left: 30px;
 }
 
 .toptext p {
   margin-top: 15px;
-}
-
-.form-top {
-  display: flex;
-  flex-direction: column;
 }
 
 .formrow {
@@ -94,7 +96,7 @@ html {
   margin-top: 12px;
 }
 
-label {
+.form-label {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
   font-size: 9px;
@@ -102,7 +104,7 @@ label {
   margin-top: 5px;
 }
 
-input {
+.form-value {
   font-family: Arial, Helvetica, sans-serif;
   border: 1px solid #e5e7eb;
   padding: 4px 6px;
@@ -111,19 +113,29 @@ input {
   width: 185px;
 }
 
-label,
-input {
+.form-label,
+.form-value {
   display: block;
 }
 
-input:focus {
+.form-value:focus {
   border-color: lightblue;
 }
 
 .error {
-  color: #e5e7eb;
+  color: red;
   font-size: 9px;
   margin-top: 3px;
+}
+
+.password {
+  border: 1px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 185px;
+  display: block;
 }
 
 .btn {
@@ -135,7 +147,6 @@ input:focus {
   border: none;
   padding: 10px 40px 12px;
   font-size: 0.7rem;
-  margin-left: 30px;
 }
 
 .btn:hover {
@@ -148,7 +159,6 @@ input:focus {
 .account {
   font-size: 12px;
   margin-top: 30px;
-  margin-left: 30px;
 }
 
 .log-in {

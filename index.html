@@ -16,9 +16,10 @@
         />
         <p class="norse">Odin</p>
       </nav>
+      <p class="validation">Photo by Halie West on Unsplash</p>
     </section>
 
-    <section class="rightside">
+    <section class="formside">
       <nav class="toptext">
         <header class="header">
           This is not a real online service! You know you need something like this in your life to
@@ -34,48 +35,56 @@
         <form class="form-top">
           <div class="formrow">
             <nav class="form-element">
-              <label>FIRST NAME <input required id="first-name" type="text" /></label>
+              <label class="form-label"
+                >FIRST NAME <input required class="form-value" id="first-name" type="text"
+              /></label>
             </nav>
 
             <nav class="form-element">
-              <label>LAST NAME <input required id="last-name" type="text" /></label>
-            </nav>
-          </div>
-
-          <div class="formrow">
-            <nav class="form-element">
-              <label>EMAIL <input required id="text" type="email" /></label>
-            </nav>
-
-            <nav class="form-element">
-              <label
-                >PHONE NUMBER <input required name="phone-number" id="phone-number" type="tel"
+              <label class="form-label"
+                >LAST NAME <input required class="form-value" id="last-name" type="text"
               /></label>
             </nav>
           </div>
 
           <div class="formrow">
             <nav class="form-element">
-              <label>PASSWORD <input required class="error" id="Password" type="password" /></label>
+              <label class="form-label"
+                >EMAIL <input required class="form-value" id="text" type="email"
+              /></label>
+            </nav>
+
+            <nav class="form-element">
+              <label class="form-label"
+                >PHONE NUMBER
+                <input required class="form-value" name="phone-number" id="phone-number" type="tel"
+              /></label>
+            </nav>
+          </div>
+
+          <div class="formrow">
+            <nav class="form-element">
+              <label class="form-label"
+                >PASSWORD <input required class="password" id="Password" type="password"
+              /></label>
 
               <p id="validation-error" class="error">*Passwords do not match</p>
             </nav>
 
             <nav class="form-element">
-              <label
+              <label class="form-label"
                 >CONFIRM PASSWORD
                 <input required class="password" id="confirm-Password" type="confirm-password"
               /></label>
             </nav>
           </div>
+          <button type="submit" class="btn">Create Account</button>
+          <p class="account" class="last-paragraph">
+            Already have an account?
+            <a href="#" class="log-in">Log in</a>
+          </p>
         </form>
       </div>
-
-      <button type="submit" class="btn">Create Account</button>
-      <p class="account" class="last-paragraph">
-        Already have an account?
-        <a href="#" class="log-in">Log in</a>
-      </p>
     </section>
   </body>
 </html>
