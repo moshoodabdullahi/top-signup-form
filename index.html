@@ -13,70 +13,121 @@
       <nav class="sidebar">
         <img
           src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="Green Leaf"
         />
         <p class="norse">Odin</p>
       </nav>
-      <p class="validation">Photo by Halie West on Unsplash</p>
+      <p class="validation">
+        Photo by
+        <a
+          class="unsplash-img"
+          href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Halie West</a
+        >
+        on
+        <a
+          class="unsplash-img"
+          href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
     </section>
 
     <section class="formside">
-      <nav class="toptext">
+      <div class="toptext">
         <header class="header">
           This is not a real online service! You know you need something like this in your life to
           help you realize your deepest dreams. Sign up
           <em>now</em> to get started.
           <p class="one-paragraph">You <em>know</em> you want to.</p>
         </header>
-      </nav>
+      </div>
 
       <div class="whitebox">
         <p class="whitebox-p">Let's do this!</p>
 
         <form class="form-top">
           <div class="formrow">
-            <nav class="form-element">
-              <label class="form-label"
-                >FIRST NAME <input required class="form-value" id="first-name" type="text"
-              /></label>
-            </nav>
+            <div class="form-element">
+              <label for="first-name" class="form-label"
+                >FIRST NAME 
+                <input 
+                maxlength="30"
+                required 
+                class="form-value" 
+                id="first-name" 
+                type="text" />
+              </label>
+            </div>
 
-            <nav class="form-element">
-              <label class="form-label"
-                >LAST NAME <input required class="form-value" id="last-name" type="text"
-              /></label>
-            </nav>
+            <div class="form-element">
+              <label for="last-name" class="form-label"
+                >LAST NAME
+                <input 
+                maxlength="30" 
+                required 
+                class="form-value" 
+                id="last-name" 
+                type="text" />
+              </label>
+            </div>
           </div>
 
           <div class="formrow">
-            <nav class="form-element">
-              <label class="form-label"
-                >EMAIL <input required class="form-value" id="text" type="email"
-              /></label>
-            </nav>
+            <div class="form-element">
+              <label for="email" class="form-label"
+                >EMAIL
+                <input
+                  required
+                  class="form-value"
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+                  id="email"
+                  type="email"
+                />
+              </label>
+            </div>
 
-            <nav class="form-element">
-              <label class="form-label"
+            <div class="form-element">
+              <label for="phone" class="form-label"
                 >PHONE NUMBER
-                <input required class="form-value" name="phone-number" id="phone-number" type="tel"
-              /></label>
-            </nav>
+                <input
+                  required
+                  class="form-value"
+                  name="phone"
+                  pattern="[0]{1}[0-9]{10}"
+                  id="phone"
+                  type="tel"
+                />
+              </label>
+            </div>
           </div>
 
           <div class="formrow">
-            <nav class="form-element">
-              <label class="form-label"
-                >PASSWORD <input required class="password" id="Password" type="password"
-              /></label>
+            <div class="form-element">
+              <label for="new-password" class="form-label"
+                >PASSWORD
+                <input 
+                maxlength="30"
+                required 
+                class="form-value" 
+                id=" new-password" 
+                type="password" />
 
-              <p id="validation-error" class="error">*Passwords do not match</p>
-            </nav>
+                <p id="validation-error" class="error">*Passwords do not match</p>
+              </label>
+            </div>
 
-            <nav class="form-element">
-              <label class="form-label"
+            <div class="form-element">
+              <label for="confirm-password" class="form-label"
                 >CONFIRM PASSWORD
-                <input required class="password" id="confirm-Password" type="confirm-password"
-              /></label>
-            </nav>
+                <input 
+                maxlength="30"
+                required 
+                class="form-value" 
+                id="confirm-password" 
+                type="password" />
+              </label>
+            </div>
           </div>
           <button type="submit" class="btn">Create Account</button>
           <p class="account" class="last-paragraph">
