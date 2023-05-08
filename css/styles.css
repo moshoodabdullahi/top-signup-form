@@ -33,9 +33,18 @@ html {
   color: #fff;
   display: flex;
   justify-content: center;
-  margin-top: 630px;
+  align-items: center;
+  margin-top: calc(100vh - 20px);
   font-weight: 100;
   font-size: small;
+}
+
+.unsplash-img {
+  color: #fff;
+  text-decoration: none;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
 }
 
 .formside {
@@ -99,18 +108,19 @@ html {
 .form-label {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   margin-top: 5px;
 }
 
 .form-value {
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid #e5e7eb;
   padding: 4px 6px;
   border-radius: 4px;
   font-size: 13px;
   width: 185px;
+  outline: none;
+  border: #fff;
 }
 
 .form-label,
@@ -118,24 +128,35 @@ html {
   display: block;
 }
 
+.form-value:invalid {
+  border: 1px solid #ee0e0e;
+}
+
 .form-value:focus {
-  border-color: lightblue;
+  border-color: rgb(64 53 228);
+  box-shadow: 0 2px 6px #0e68ee;
+  border-bottom: none;
 }
 
 .error {
+  display: none;
+}
+
+input:invalid + .error {
   color: red;
   font-size: 9px;
   margin-top: 3px;
+  display: block;
 }
 
 .password {
-  border: 1px solid red;
   font-family: Arial, Helvetica, sans-serif;
   padding: 4px 6px;
   border-radius: 4px;
   font-size: 13px;
   width: 185px;
   display: block;
+  outline: none;
 }
 
 .btn {
