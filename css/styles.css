@@ -118,8 +118,8 @@ html {
   border-radius: 4px;
   font-size: 13px;
   width: 185px;
-  outline: none;
-  border: #fff;
+  outline: rgb(42 42 197);
+  border: 1px solid #9c9898;
 }
 
 .form-label,
