@@ -1,27 +1,36 @@
-# Project Name
+# TOP SIGNUP FORM
 
-> One paragraph statement about the project.
+> A signup form built using CSS font face, CSS flexbox, typography and semantic html.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./add-top-signup-form.netlify.app_.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Semantic elements such as `header`, `nav` and so on,
+- CSS properties
+  - CSS Positioning `relative`,
+  - Typography such as `font-family`,
+  - CSS flexbox such as `flex-direction`,
+  - CSS Variables for reusable CSS values,
+  - CSS font-face used to specify font to display text such as `@font-face`,
+  - CSS Background for page aesthetic using `background-color`,
+    `background-color`, `background-size` and so on.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://add-top-signup-form.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/top-signup-form.git
 ```
 
 - Install Dependencies
@@ -64,7 +73,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -84,9 +92,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [TheOdinProject: Sign-up Form](https://www.theodinproject.com/lessons/intermediate-html-and-css-sign-up-form)
 
 ## 📝 License
 

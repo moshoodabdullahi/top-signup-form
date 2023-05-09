@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url("Norse-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.header {
+  padding: 10px;
+}
+
+.sidelogo {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NTh8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 40%;
+}
+
+.credits {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(100vh - 20px);
+  font-weight: 100;
+  font-size: small;
+}
+
+.unsplash-img {
+  color: #fff;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.formside {
+  position: relative;
+  width: 60%;
+  background-color: #f7f8fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  background-color: #0000005d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar img {
+  height: 110px;
+  background-color: transparent;
+}
+
+.norse {
+  font-family: Norse-Bold, sans-serif;
+  color: #fff;
+  font-size: 90px;
+}
+
+.whitebox-p {
+  margin-top: 5px;
+}
+
+.whitebox {
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 15%) 0 3px 3px 0;
+  padding: 10px 35px 20px;
+  margin-top: 40px;
+}
+
+.toptext {
+  margin-top: 100px;
+  width: 70%;
+  margin-left: 30px;
+}
+
+.toptext p {
+  margin-top: 15px;
+}
+
+.formrow {
+  display: flex;
+}
+
+.form-element {
+  margin-right: 50px;
+  margin-top: 12px;
+}
+
+.form-label {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.form-value {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 185px;
+  outline: rgb(42 42 197);
+  border: 1px solid #9c9898;
+}
+
+.form-label,
+.form-value {
+  display: block;
+}
+
+.form-value:invalid {
+  border: 1px solid #ee0e0e;
+}
+
+.form-value:focus {
+  border-color: rgb(64 53 228);
+  box-shadow: 0 2px 6px #0e68ee;
+  border-bottom: none;
+}
+
+.error {
+  display: none;
+}
+
+input:invalid + .error {
+  color: #ee0e0e;
+  font-size: 9px;
+  margin-top: 3px;
+  display: block;
+}
+
+.password {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 185px;
+  display: block;
+  outline: none;
+}
+
+.btn {
+  background-color: #596d48;
+  color: #fff;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 25px;
+  border: none;
+  padding: 10px 40px 12px;
+  font-size: 0.7rem;
+}
+
+.btn:hover {
+  color: #596d48;
+  background-color: #fff;
+  transform: translateY(-2px);
+  box-shadow: -1px 8px 16px 0 #586579;
+}
+
+.account {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.log-in {
+  color: #596d48;
+  text-decoration: none;
+}

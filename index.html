@@ -2,11 +2,147 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Signup Form</title>
   </head>
+
   <body>
-    <h1>Hello!</h1>
+    <section class="sidelogo">
+      <nav class="sidebar">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="Green Leaf"
+        />
+        <p class="norse">Odin</p>
+      </nav>
+      <p class="credits">
+        Photo by
+        <a
+          class="unsplash-img"
+          href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Halie West</a
+        >
+        on
+        <a
+          class="unsplash-img"
+          href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </section>
+
+    <section class="formside">
+      <div class="toptext">
+        <header class="header">
+          This is not a real online service! You know you need something like this in your life to
+          help you realize your deepest dreams. Sign up
+          <em>now</em> to get started.
+          <p class="one-paragraph">You <em>know</em> you want to.</p>
+        </header>
+      </div>
+
+      <div class="whitebox">
+        <p class="whitebox-p">Let's do this!</p>
+
+        <form class="form-top">
+          <div class="formrow">
+            <div class="form-element">
+              <label for="first-name" class="form-label"
+                >FIRST NAME
+                <input
+                  autocomplete="given-name"
+                  required
+                  class="form-value"
+                  name="first-name"
+                  id="first-name"
+                  type="text"
+                />
+              </label>
+            </div>
+
+            <div class="form-element">
+              <label for="last-name" class="form-label"
+                >LAST NAME
+                <input
+                  autocomplete="family-name"
+                  required
+                  class="form-value"
+                  name="last-name"
+                  id="last-name"
+                  type="text"
+                />
+              </label>
+            </div>
+          </div>
+
+          <div class="formrow">
+            <div class="form-element">
+              <label for="email" class="form-label"
+                >EMAIL
+                <input required class="form-value" name="email" id="email" type="email" />
+              </label>
+            </div>
+
+            <div class="form-element">
+              <label for="phone" class="form-label"
+                >PHONE NUMBER
+                <input
+                  required
+                  class="form-value"
+                  name="phone"
+                  minlength="11"
+                  maxlength="11"
+                  id="phone"
+                  type="tel"
+                />
+              </label>
+            </div>
+          </div>
+
+          <div class="formrow">
+            <div class="form-element">
+              <label for="new-password" class="form-label"
+                >PASSWORD
+                <input
+                  autocomplete="new-password"
+                  minlength="8"
+                  maxlength="30"
+                  required
+                  class="form-value"
+                  name="password"
+                  id="new-password"
+                  type="password"
+                />
+
+                <p id="validation-error" class="error">*Passwords do not match</p>
+              </label>
+            </div>
+
+            <div class="form-element">
+              <label for="confirm-password" class="form-label"
+                >CONFIRM PASSWORD
+                <input
+                  autocomplete="new-password"
+                  minlength="8"
+                  maxlength="30"
+                  required
+                  class="form-value"
+                  name="password"
+                  id="confirm-password"
+                  type="password"
+                />
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn">Create Account</button>
+        </form>
+        <p class="account" class="last-paragraph">
+          Already have an account?
+          <a href="#" class="log-in">Log in</a>
+        </p>
+      </div>
+    </section>
   </body>
 </html>
